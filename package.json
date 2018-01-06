@@ -1,0 +1,37 @@
+{
+  "name": "appcd-plugin-<NAME>",
+  "version": "0.1.0",
+  "description": "DESCRIPTION GOES HERE",
+  "main": "./dist/index",
+  "author": "Company Name <company@email.com>",
+  "maintainers": [
+    "Developer Name <developer@email.com>"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "gulp build",
+    "coverage": "gulp coverage",
+    "docs": "gulp docs",
+    "prepare": "gulp build",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.0"
+  },
+  "devDependencies": {
+    "appcd-gulp": "^1.0.1",
+    "gulp": "^3.9.1"
+  },
+  "homepage": "https://github.com/<ORG>/<REPO>#readme",
+  "bugs": "https://github.com/<ORG>/<REPO>/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<ORG>/<REPO>.git"
+  },
+  "appcd": {
+    "appcdVersion": "1.x",
+    "config": "./conf/config.js",
+    "name": "<NAME>",
+    "type": "external"
+  }
+}
