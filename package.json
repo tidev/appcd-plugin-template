@@ -1,5 +1,5 @@
 {
-  "name": "appcd-plugin-<NAME>",
+  "name": "[PROJECT_NAME]",
   "version": "0.1.0",
   "description": "DESCRIPTION GOES HERE",
   "main": "./dist/index",
@@ -22,16 +22,16 @@
     "appcd-gulp": "^1.0.1",
     "gulp": "^3.9.1"
   },
-  "homepage": "https://github.com/<ORG>/<REPO>#readme",
-  "bugs": "https://github.com/<ORG>/<REPO>/issues",
+  "homepage": "https://github.com/[ORG]/[PROJECT_NAME]#readme",
+  "bugs": "https://github.com/[ORG]/[PROJECT_NAME]/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<ORG>/<REPO>.git"
+    "url": "git+https://github.com/[ORG]/[PROJECT_NAME].git"
   },
   "appcd": {
     "appcdVersion": "1.x",
     "config": "./conf/config.js",
-    "name": "<NAME>",
+    "name": "[PLUGIN_NAME]",
     "type": "external"
   }
 }
