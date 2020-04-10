@@ -1,0 +1,41 @@
+{
+  "name": "<%= packageName %>",
+  "version": "0.1.0",
+  "description": "DESCRIPTION GOES HERE",
+  "main": "./dist/index",
+  "author": "Company Name <company@email.com>",
+  "maintainers": [
+    "Developer Name <developer@email.com>"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "appcd-plugin"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "coverage": "gulp coverage",
+    "docs": "gulp docs",
+    "lint": "gulp lint",
+    "prepare": "gulp build",
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "appcd-gulp": "^2.4.0"
+  },
+  "homepage": "https://github.com/[ORG]/[PROJECT_NAME]#readme",
+  "bugs": "https://github.com/[ORG]/[PROJECT_NAME]/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[ORG]/[PROJECT_NAME].git"
+  },
+  "appcd": {
+    "apiVersion": "1.x || 2.x",
+    "config": "./conf/config.js",
+    "name": "<%= serviceName %>",
+    "type": "external"
+  }
+}

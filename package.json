@@ -1,37 +1,16 @@
 {
-  "name": "[PROJECT_NAME]",
-  "version": "0.1.0",
-  "description": "DESCRIPTION GOES HERE",
-  "main": "./dist/index",
-  "author": "Company Name <company@email.com>",
+  "name": "@appcd/template-plugin",
+  "version": "1.0.0",
+  "description": "Template for creating plugins for the Appc Daemon",
+  "author": "Appcelerator, Inc. <npmjs@appcelerator.com>",
   "maintainers": [
-    "Developer Name <developer@email.com>"
+    "Chris Barber <cbarber@appcelerator.com>"
   ],
   "license": "Apache-2.0",
-  "scripts": {
-    "build": "gulp build",
-    "coverage": "gulp coverage",
-    "docs": "gulp docs",
-    "prepare": "gulp build",
-    "test": "gulp test"
-  },
-  "dependencies": {
-    "source-map-support": "^0.5.4"
-  },
-  "devDependencies": {
-    "appcd-gulp": "^1.1.2",
-    "gulp": "^3.9.1"
-  },
-  "homepage": "https://github.com/[ORG]/[PROJECT_NAME]#readme",
-  "bugs": "https://github.com/[ORG]/[PROJECT_NAME]/issues",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/[ORG]/[PROJECT_NAME].git"
-  },
-  "appcd": {
-    "appcdVersion": "1.x",
-    "config": "./conf/config.js",
-    "name": "[PLUGIN_NAME]",
-    "type": "external"
+  "keywords": [
+    "appcd-plugin-template"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
