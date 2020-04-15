@@ -50,7 +50,7 @@ yarn run watch
 ## View debug logs
 
 ```sh
-appcd logcat *<%= serviceName %>*
+appcd logcat "*<%= serviceName %>*"
 ```
 
 ## Documentation
